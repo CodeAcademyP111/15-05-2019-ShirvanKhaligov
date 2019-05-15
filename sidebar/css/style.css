@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+.aside{
+    width: 250px;
+    height: 800px;
+    background-color: black;
+    margin-left: -250px;
+    position: absolute;
+    left: -2px;
+}
+#button{
+    position: absolute;
+    left: 250px;
+    top: 60px;
+    padding: 17px;
+    font-size: 27px;
+    background-color: #42B00D;
+    color: bisque;
+    border: cornsilk;
+
+}
+#button:hover{
+    cursor: pointer;
+    transition: 2.5s;
+    border-radius: 7%;
+}
+ .aside ul{
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    line-height: 47px;
+    font-size: 30px;
+}
+.aside ul a{
+    text-decoration: none;
+    color: rgba(166, 243, 207, 0.699);;    
+}
+.aside ul a:hover{
+    color: white;
+    transition: 2s;
+}
+.aside .icon{
+    color: #e12ce3;
+    position: absolute;
+    top: 9px;
+    left: 205px;
+    font-size: 37px;
+}
+.aside .icon:hover{
+    cursor: pointer;
+    color: white;
+    transition: 2s;
+    border: none;
+}
+#button2{
+    position: absolute;
+    left: 295px;
+    padding: 10px;
+    top: 205px;
+    font-size: 20px;
+    background-color: rgb(158, 153, 226);
+    color: rgb(219, 212, 212);
+    border: none;
+}
+#button2:hover{
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+}
